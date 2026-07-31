@@ -3,7 +3,7 @@
     {% if section.settings.avatar != blank %}
       <img class="avatar" src="{{ section.settings.avatar | image_url: width: 360 }}" alt="{{ section.settings.name }}" style="object-fit:cover;">
     {% else %}
-      <img class="avatar" src="{{ 'tapline_square_review_card_v3.png' | asset_url }}" alt="Tapline review card" style="object-fit:contain;background:var(--cream-dim);padding:16px;">
+      <img class="avatar" src="{{ 'tapline_square_review_card_v3' | asset_url }}" alt="Tapline review card">
     {% endif %}
     <div>
       <h3>About {{ section.settings.name }}</h3>
