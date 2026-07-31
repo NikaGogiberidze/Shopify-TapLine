@@ -1,0 +1,32 @@
+<header>
+  <div class="nav">
+    <a href="{{ routes.root_url }}" class="logo">
+      <div class="logo-mark"></div>{{ section.settings.logo_text | default: shop.name }}
+    </a>
+    <div class="nav-links">
+      <a href="{{ routes.all_products_collection_url }}">Catalog</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <span style="font-size:14px;color:var(--muted);">{{ cart.currency.iso_code }}</span>
+      <a href="{{ routes.cart_url }}" class="nav-cta">
+        Cart {% if cart.item_count > 0 %}({{ cart.item_count }}){% endif %}
+      </a>
+    </div>
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    {
+      "type": "text",
+      "id": "logo_text",
+      "label": "Logo text",
+      "default": "Tapline"
+    }
+  ]
+}
+{% endschema %}

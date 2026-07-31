@@ -1,0 +1,49 @@
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo"><div class="logo-mark"></div>{{ section.settings.logo_text | default: shop.name }}</div>
+        <p>{{ section.settings.tagline }}</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="{{ routes.all_products_collection_url }}">Catalog</a>
+        <a href="{{ routes.cart_url }}">Cart</a>
+        <a href="{{ routes.account_url }}">Account</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="{{ routes.root_url }}pages/contact">Contact</a>
+        <a href="{{ shop.policies.privacy_policy.url }}">Privacy Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        {% form 'customer' %}
+          {% if form.posted_successfully? %}
+            <p style="font-size:13px;color:var(--gold);">Thanks — you're on the list.</p>
+          {% else %}
+            <input type="hidden" name="contact[tags]" value="newsletter">
+            <div class="newsletter-row">
+              <input type="email" name="contact[email]" placeholder="Email" required>
+              <button type="submit">Subscribe</button>
+            </div>
+          {% endif %}
+        {% endform %}
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; {{ 'now' | date: "%Y" }} {{ shop.name }}. All rights reserved.</span>
+      <span>Powered by Shopify</span>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [
+    { "type": "text", "id": "logo_text", "label": "Logo text", "default": "Tapline" },
+    { "type": "text", "id": "tagline", "label": "Tagline", "default": "Tap into income. Real system, real results." }
+  ]
+}
+{% endschema %}

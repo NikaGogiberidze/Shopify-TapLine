@@ -1,0 +1,29 @@
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    {% if section.settings.avatar != blank %}
+      <img class="avatar" src="{{ section.settings.avatar | image_url: width: 360 }}" alt="{{ section.settings.name }}" style="object-fit:cover;">
+    {% else %}
+      <div class="avatar"></div>
+    {% endif %}
+    <div>
+      <h3>About {{ section.settings.name }}</h3>
+      <p>{{ section.settings.bio }}</p>
+      {% if section.settings.instagram_url != blank %}
+        <a href="{{ section.settings.instagram_url }}" class="handle" target="_blank" rel="noopener">Follow on Instagram &rarr;</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "About",
+  "settings": [
+    { "type": "image_picker", "id": "avatar", "label": "Photo" },
+    { "type": "text", "id": "name", "label": "Name", "default": "Gogi" },
+    { "type": "textarea", "id": "bio", "label": "Bio", "default": "Hey, I'm Gogi. I started reselling NFC Google review cards to local businesses and turned it into a real income stream. Tapline is the exact system I wish I had when I started — no guesswork, just what works." },
+    { "type": "url", "id": "instagram_url", "label": "Instagram link" }
+  ],
+  "presets": [{ "name": "About" }]
+}
+{% endschema %}

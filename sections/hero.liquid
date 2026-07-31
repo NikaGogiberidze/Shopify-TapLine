@@ -1,0 +1,59 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow"><span class="eyebrow-dot"></span>{{ section.settings.eyebrow }}</div>
+      <h1>{{ section.settings.heading }}</h1>
+      <p class="hero-sub">{{ section.settings.subheading }}</p>
+      <div class="price-row">
+        <span class="price-now">{{ section.settings.price_now }}</span>
+        {% if section.settings.price_was != blank %}
+          <span class="price-was">{{ section.settings.price_was }}</span>
+        {% endif %}
+        {% if section.settings.badge_text != blank %}
+          <span class="price-badge">{{ section.settings.badge_text }}</span>
+        {% endif %}
+      </div>
+      <div class="cta-row">
+        <a href="{{ section.settings.cta_link }}" class="btn-primary">{{ section.settings.cta_text }}</a>
+        <a href="#products" class="btn-ghost">See all products</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="ripple r1"></div>
+      <div class="ripple r2"></div>
+      <div class="ripple r3"></div>
+      <div class="card">
+        <div class="card-label">{{ section.settings.card_label | default: "TAPLINE" }}</div>
+        <div class="card-sub">NFC &middot; Tap to Review</div>
+      </div>
+      <div class="review-popup">
+        <div class="pin-row">
+          <div class="pin-icon"></div>
+          <div class="biz-name">{{ section.settings.review_business | default: "Local Coffee Co." }}</div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="snippet">{{ section.settings.review_snippet | default: "Tapped the card at checkout — review posted in 10 seconds." }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow text", "default": "Launch pricing — limited spots" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Start Tapping Into Income Today" },
+    { "type": "textarea", "id": "subheading", "label": "Subheading", "default": "The complete NFC Google Review Card system — full setup, verified suppliers, and the exact playbook we use to close local business sales." },
+    { "type": "text", "id": "price_now", "label": "Current price", "default": "89 GEL" },
+    { "type": "text", "id": "price_was", "label": "Original price (optional)", "default": "149 GEL" },
+    { "type": "text", "id": "badge_text", "label": "Badge text", "default": "40% off" },
+    { "type": "text", "id": "cta_text", "label": "Button text", "default": "Get the Full Method" },
+    { "type": "url", "id": "cta_link", "label": "Button link" },
+    { "type": "text", "id": "card_label", "label": "Card label", "default": "TAPLINE" },
+    { "type": "text", "id": "review_business", "label": "Review popup business name", "default": "Local Coffee Co." },
+    { "type": "text", "id": "review_snippet", "label": "Review popup quote", "default": "Tapped the card at checkout — review posted in 10 seconds." }
+  ],
+  "presets": [{ "name": "Hero" }]
+}
+{% endschema %}

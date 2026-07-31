@@ -1,0 +1,40 @@
+<section class="products" id="products">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-eyebrow">{{ section.settings.eyebrow }}</div>
+      <div class="section-title">{{ section.settings.heading }}</div>
+      <div class="section-sub">{{ section.settings.subheading }}</div>
+    </div>
+    <div class="product-grid">
+      {% assign collection = collections[section.settings.collection] %}
+      {% if collection != blank %}
+        {% for product in collection.products limit: 3 %}
+          <div class="product-card{% if forloop.first %} featured{% endif %}">
+            {% if forloop.first %}<span class="tag">Most popular</span>{% endif %}
+            <h3>{{ product.title }}</h3>
+            <p>{{ product.description | strip_html | truncate: 140 }}</p>
+            <div class="product-price-row">
+              <span class="product-price">{{ product.price | money }}</span>
+              <a href="{{ product.url }}" class="product-cta">Buy now &rarr;</a>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p style="color:var(--muted);">Select a collection in the section settings to display products here.</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product grid",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow text", "default": "What's inside" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Three ways to start" },
+    { "type": "text", "id": "subheading", "label": "Subheading", "default": "Buy the full system, or grab just the piece you need." },
+    { "type": "collection", "id": "collection", "label": "Collection to display" }
+  ],
+  "presets": [{ "name": "Product grid" }]
+}
+{% endschema %}

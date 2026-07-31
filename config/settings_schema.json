@@ -1,0 +1,18 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Tapline",
+    "theme_version": "1.0.0",
+    "theme_author": "Custom",
+    "theme_documentation_url": "",
+    "theme_support_url": ""
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      { "type": "color", "id": "color_ink", "label": "Background (ink)", "default": "#14140f" },
+      { "type": "color", "id": "color_gold", "label": "Accent (gold)", "default": "#c9a227" },
+      { "type": "color", "id": "color_cream", "label": "Text (cream)", "default": "#f2ede1" }
+    ]
+  }
+]
