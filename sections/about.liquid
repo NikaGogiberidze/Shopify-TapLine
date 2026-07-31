@@ -3,7 +3,7 @@
     {% if section.settings.avatar != blank %}
       <img class="avatar" src="{{ section.settings.avatar | image_url: width: 360 }}" alt="{{ section.settings.name }}" style="object-fit:cover;">
     {% else %}
-     <img class="avatar" src="{{ 'tapline_square_review_card_v3.svg' | asset_url }}" alt="Tapline review card" style="object-fit:contain;background:var(--cream-dim);padding:16px;">
+      <img class="avatar" src="{{ 'review-card-3d.svg' | asset_url }}" alt="Tapline review card" style="object-fit:contain;background:transparent;border-radius:0;width:100%;height:auto;max-width:340px;">
     {% endif %}
     <div>
       <h3>About {{ section.settings.name }}</h3>

@@ -185,10 +185,9 @@ section{position:relative;z-index:1;}
 
 /* about */
 .about{padding:70px 0;border-top:1px solid var(--line);}
-.about-grid{display:grid;grid-template-columns:180px 1fr;gap:36px;align-items:center;}
+.about-grid{display:grid;grid-template-columns:minmax(280px,380px) 1fr;gap:36px;align-items:center;}
 .avatar{
-  width:180px;height:180px;border-radius:16px;
-  background:linear-gradient(155deg,var(--cream-dim),var(--cream));
+  display:block;
 }
 .about h3{font-family:var(--display);font-size:24px;margin-bottom:10px;}
 .about p{color:var(--muted);font-size:15px;max-width:520px;margin-bottom:14px;}
