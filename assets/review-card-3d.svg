@@ -1,81 +1,73 @@
-<svg width="680" height="580" viewBox="0 0 680 580" xmlns="http://www.w3.org/2000/svg" role="img">
-<title>3D mockup of a square NFC review card</title>
+<svg width="100%" viewBox="0 0 680 560" xmlns="http://www.w3.org/2000/svg" role="img" style="">
+<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">3D mockup of a square NFC review card with soft shadow</title>
+<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A square card with a soft blurred shadow instead of hard gray layers, blue gradient curved top reading review us on Google with five stars, and a white bottom half showing tap your phone with an NFC icon, or scan a QR code.</desc>
 <defs>
-<linearGradient id="blueTop3" x1="0" y1="0" x2="1" y2="1">
+<linearGradient id="blueTop4" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0%" stop-color="#4A97E8"/>
 <stop offset="100%" stop-color="#0C447C"/>
 </linearGradient>
-<linearGradient id="sheen3" x1="0" y1="0" x2="0" y2="1">
+<linearGradient id="sheen4" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
 <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
 </linearGradient>
-<radialGradient id="glow3" cx="50%" cy="45%" r="55%">
-<stop offset="0%" stop-color="#4A97E8" stop-opacity="0.30"/>
+<radialGradient id="glow4" cx="50%" cy="45%" r="55%">
+<stop offset="0%" stop-color="#4A97E8" stop-opacity="0.22"/>
 <stop offset="100%" stop-color="#4A97E8" stop-opacity="0"/>
 </radialGradient>
-</defs>
+<filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="14"/>
+</filter>
+<mask id="imagine-text-gaps-h4998q" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="560" fill="white"/><rect x="114.4609375" y="42" width="131.078125" height="34" fill="black" rx="2"/><rect x="109.2578125" y="76" width="141.484375" height="34" fill="black" rx="2"/><rect x="116.015625" y="117" width="127.96875" height="36" fill="black" rx="2"/><rect x="-17.2734375" y="-14" width="104.546875" height="19" fill="black" rx="2"/><rect x="170.21875" y="284" width="20.22998046875" height="19" fill="black" rx="2"/><rect x="-13.0703125" y="-14" width="96.140625" height="19" fill="black" rx="2"/><rect x="145.484375" y="333" width="68.03125" height="16" fill="black" rx="2"/></mask></defs>
 
-<ellipse cx="340" cy="520" rx="210" ry="26" fill="#000000" opacity="0.4"/>
-<ellipse cx="340" cy="520" rx="150" ry="18" fill="#000000" opacity="0.25"/>
+<circle cx="340" cy="240" r="240" fill="url(#glow4)" style="stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-<circle cx="340" cy="260" r="260" fill="url(#glow3)"/>
-<circle cx="110" cy="80" r="2.5" fill="#B5D4F4" opacity="0.7"/>
-<circle cx="590" cy="100" r="3.5" fill="#FAC775" opacity="0.6"/>
-<circle cx="610" cy="440" r="2.5" fill="#9FE1CB" opacity="0.6"/>
-<circle cx="70" cy="460" r="3.5" fill="#F0997B" opacity="0.55"/>
-<circle cx="60" cy="260" r="2.5" fill="#ffffff" opacity="0.3"/>
-<circle cx="630" cy="260" r="2.5" fill="#ffffff" opacity="0.3"/>
+<rect x="176" y="75" width="360" height="360" rx="28" fill="#000000" opacity="0.35" filter="url(#softBlur)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-<g transform="translate(160,55)">
-  <rect x="10" y="16" width="360" height="360" rx="28" fill="#B4B2A9"/>
-  <rect x="6" y="10" width="360" height="360" rx="28" fill="#888780"/>
+<g transform="translate(160,55)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+  <rect x="0" y="0" width="360" height="360" rx="28" fill="#ffffff" stroke="#2C2C2A" stroke-width="2" style="fill:rgb(255, 255, 255);stroke:rgb(44, 44, 42);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <rect x="0" y="0" width="360" height="360" rx="28" fill="#ffffff" stroke="#2C2C2A" stroke-width="2.5"/>
+  <path d="M0 28 A28 28 0 0 1 28 0 L332 0 A28 28 0 0 1 360 28 L360 188&#10;           C 300 220, 60 220, 0 188 Z" fill="url(#blueTop4)" stroke="#2C2C2A" stroke-width="2" style="stroke:rgb(44, 44, 42);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M0 28 A28 28 0 0 1 28 0 L332 0 A28 28 0 0 1 360 28 L360 188&#10;           C 300 220, 60 220, 0 188 Z" fill="url(#sheen4)" style="stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <path d="M0 28 A28 28 0 0 1 28 0 L332 0 A28 28 0 0 1 360 28 L360 188
-           C 300 220, 60 220, 0 188 Z" fill="url(#blueTop3)" stroke="#2C2C2A" stroke-width="2.5"/>
-  <path d="M0 28 A28 28 0 0 1 28 0 L332 0 A28 28 0 0 1 360 28 L360 188
-           C 300 220, 60 220, 0 188 Z" fill="url(#sheen3)"/>
+  <text x="180" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:27px;font-weight:600;text-anchor:middle;dominant-baseline:auto">review us</text>
+  <text x="180" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:27px;font-weight:600;text-anchor:middle;dominant-baseline:auto">on Google</text>
+  <text x="180" y="145" text-anchor="middle" font-size="24" letter-spacing="4" fill="#FAC775" style="fill:rgb(250, 199, 117);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:24px;font-weight:400;text-anchor:middle;dominant-baseline:auto">★★★★★</text>
 
-  <text x="180" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff">review us</text>
-  <text x="180" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff">on Google</text>
-  <text x="180" y="145" text-anchor="middle" font-size="24" letter-spacing="4" fill="#FAC775">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
-
-  <g transform="translate(50,248)">
-    <text x="35" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#2C2C2A">Tap your phone</text>
-    <g transform="translate(0,20)">
-      <path d="M14 55 A34 34 0 0 1 24 21" fill="none" stroke="#185FA5" stroke-width="4" stroke-linecap="round"/>
-      <path d="M2 62 A48 48 0 0 1 20 5" fill="none" stroke="#185FA5" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
-      <rect x="34" y="28" width="27" height="44" rx="7" fill="#2C2C2A"/>
-      <rect x="37" y="32" width="21" height="32" rx="2" fill="#F1EFE8"/>
-      <circle cx="47" cy="68" r="2" fill="#F1EFE8"/>
+  <g transform="translate(50,248)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="35" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#2C2C2A" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:600;text-anchor:middle;dominant-baseline:auto">Tap your phone</text>
+    <g transform="translate(0,20)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+      <path d="M14 55 A34 34 0 0 1 24 21" fill="none" stroke="#185FA5" stroke-width="4" stroke-linecap="round" style="fill:none;stroke:rgb(24, 95, 165);color:rgb(11, 11, 11);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+      <path d="M2 62 A48 48 0 0 1 20 5" fill="none" stroke="#185FA5" stroke-width="4" stroke-linecap="round" opacity="0.5" style="fill:none;stroke:rgb(24, 95, 165);color:rgb(11, 11, 11);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+      <rect x="34" y="28" width="27" height="44" rx="7" fill="#2C2C2A" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+      <rect x="37" y="32" width="21" height="32" rx="2" fill="#F1EFE8" style="fill:rgb(241, 239, 232);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+      <circle cx="47" cy="68" r="2" fill="#F1EFE8" style="fill:rgb(241, 239, 232);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
     </g>
   </g>
 
-  <line x1="180" y1="255" x2="180" y2="332" stroke="#D3D1C7" stroke-width="1.5"/>
-  <circle cx="180" cy="293" r="13" fill="#ffffff" stroke="#D3D1C7" stroke-width="1.5"/>
-  <text x="180" y="298" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#888780">or</text>
+  <line x1="180" y1="255" x2="180" y2="332" stroke="#D3D1C7" stroke-width="1.5" mask="url(#imagine-text-gaps-h4998q)" style="fill:rgb(0, 0, 0);stroke:rgb(211, 209, 199);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="180" cy="293" r="13" fill="#ffffff" stroke="#D3D1C7" stroke-width="1.5" style="fill:rgb(255, 255, 255);stroke:rgb(211, 209, 199);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="180" y="298" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#888780" style="fill:rgb(136, 135, 128);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">or</text>
 
-  <g transform="translate(228,248)">
-    <text x="35" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#2C2C2A">Scan QR code</text>
-    <g transform="translate(3,15)">
-      <rect x="0" y="0" width="64" height="64" rx="8" fill="#F1EFE8" stroke="#2C2C2A" stroke-width="2"/>
-      <g fill="#2C2C2A">
-        <rect x="8" y="8" width="16" height="16" rx="2"/>
-        <rect x="12" y="12" width="8" height="8" rx="1" fill="#F1EFE8"/>
-        <rect x="40" y="8" width="16" height="16" rx="2"/>
-        <rect x="44" y="12" width="8" height="8" rx="1" fill="#F1EFE8"/>
-        <rect x="8" y="40" width="16" height="16" rx="2"/>
-        <rect x="12" y="44" width="8" height="8" rx="1" fill="#F1EFE8"/>
-        <rect x="30" y="30" width="6" height="6"/>
-        <rect x="40" y="30" width="6" height="6"/>
-        <rect x="30" y="40" width="6" height="6"/>
-        <rect x="44" y="44" width="10" height="10"/>
-        <rect x="30" y="48" width="6" height="6"/>
+  <g transform="translate(228,248)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <text x="35" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#2C2C2A" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:600;text-anchor:middle;dominant-baseline:auto">Scan QR code</text>
+    <g transform="translate(3,15)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+      <rect x="0" y="0" width="64" height="64" rx="8" fill="#F1EFE8" stroke="#2C2C2A" stroke-width="2" style="fill:rgb(241, 239, 232);stroke:rgb(44, 44, 42);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+      <g fill="#2C2C2A" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+        <rect x="8" y="8" width="16" height="16" rx="2" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="12" y="12" width="8" height="8" rx="1" fill="#F1EFE8" style="fill:rgb(241, 239, 232);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="40" y="8" width="16" height="16" rx="2" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="44" y="12" width="8" height="8" rx="1" fill="#F1EFE8" style="fill:rgb(241, 239, 232);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="8" y="40" width="16" height="16" rx="2" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="12" y="44" width="8" height="8" rx="1" fill="#F1EFE8" style="fill:rgb(241, 239, 232);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="30" y="30" width="6" height="6" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="40" y="30" width="6" height="6" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="30" y="40" width="6" height="6" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="44" y="44" width="10" height="10" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+        <rect x="30" y="48" width="6" height="6" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
       </g>
     </g>
   </g>
 
-  <text x="180" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="2" fill="#B4B2A9">TAPLINE</text>
+  <text x="180" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="2" fill="#B4B2A9" style="fill:rgb(180, 178, 169);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">TAPLINE</text>
 </g>
 </svg>
